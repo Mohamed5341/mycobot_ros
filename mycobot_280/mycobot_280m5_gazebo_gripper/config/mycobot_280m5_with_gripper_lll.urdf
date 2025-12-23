@@ -183,9 +183,10 @@
         <collision>
             <geometry>
                 <!-- <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/gripper_left1.dae"/> -->
-                <cylinder radius="0.0034" length="0.005" />
+                <!-- <cylinder radius="0.0034" length="0.05" /> -->
+                <box size="0.011 0.02 0.02"/>
             </geometry>
-            <origin xyz="0.0 0.0 -0.008 " rpy=" 0 0 0" />
+            <origin xyz="0.013 0.041 -0.008 " rpy=" 0 0 0" />
         </collision>
         <inertial>
             <mass value="0.0001" />
@@ -243,9 +244,10 @@
         <collision>
             <geometry>
                 <!-- <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/gripper_right1.dae"/> -->
-                <cylinder radius="0.0034" length="0.005" />
+                <!-- <cylinder radius="0.0034" length="0.05" /> -->
+                <box size="0.011 0.02 0.02"/>
             </geometry>
-            <origin xyz="0.0 0.0 -0.008 " rpy=" 0 0 0" />
+            <origin xyz="-0.013 0.041 -0.008 " rpy=" 0 0 0" />
         </collision>
         <inertial>
             <mass value="0.0001" />
